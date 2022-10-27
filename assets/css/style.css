@@ -1,0 +1,28 @@
+ 
+ .apri{
+     color: aqua;
+     background-color: blue;
+ }
+ 
+ 
+ #menu a{
+text-decoration: none;
+background-color: aqua;
+    color: #304dcd;
+    display: block;
+    width: 100px;
+    padding: 20px;
+}
+
+
+#bottone  a:hover {
+    background-color: #f0f3eb;
+}
+
+  .fatto {
+    text-decoration: line-through;
+  }
+  .selezione {
+    color: red;
+  }
+  

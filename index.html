@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+<div id="bottone">
+    <button onclick="apertura()" class="apri">Apri</button>
+   <div id="menu">
+    <a href="#">Home</a><br>
+    <a href="#">Chi sono</a><br>
+    <a href="#">Contatti</a><br>
+   </div>
+</div>
+
+<h1 id="nome"> Pagina interattiva</h1>
+
+<div>
+    <input type="button" value="grande" onclick="document.getElementById('nome').style.fontSize = '85px'">
+    <input type="button" value="colore" onclick="document.getElementById('nome').style.color = 'green'">
+    <input type="button" value="maiuscolo" onclick="document.getElementById('nome').style.textTransform= 'uppercase'">
+    <input type="button" value="nascondi" onclick="document.getElementById('nome').style.visibility = 'hidden'">
+    <input type="button" value="mostrare" onclick="document.getElementById('nome').style.visibility = 'visible'">
+</div>
+  
+
+<div id="lista">
+    <h2>LISTA IMPEGNI GIORNALIERI</h2>
+    <ul>
+        <li>lavare la macchina</li>
+        <li>andare dal dentista</li>
+        <li>palestra</li>
+        <li>spesa</li>
+    </ul>
+</div>
+
+
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>
+
